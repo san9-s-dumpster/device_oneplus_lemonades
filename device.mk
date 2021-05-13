@@ -52,7 +52,7 @@ PRODUCT_COPY_FILES += \
 
 # Wifi Overlay
 PRODUCT_PACKAGES += \
-    OnePlus8TWifiOverlay
+    OnePlus9RWifiOverlay
 
 PRODUCT_SHIPPING_API_LEVEL := 30
 
@@ -64,4 +64,4 @@ PRODUCT_SOONG_NAMESPACES += \
 $(call inherit-product, device/oneplus/sm8250-common/common.mk)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/oneplus/kebab/kebab-vendor.mk)
+$(call inherit-product, vendor/oneplus/lemonades/lemonades-vendor.mk)

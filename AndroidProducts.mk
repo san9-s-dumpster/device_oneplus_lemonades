@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_kebab.mk
+    $(LOCAL_DIR)/yaap_lemonades.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_kebab-user \
-    yaap_kebab-userdebug \
-    yaap_kebab-eng
+    yaap_lemonades-user \
+    yaap_lemonades-userdebug \
+    yaap_lemonades-eng

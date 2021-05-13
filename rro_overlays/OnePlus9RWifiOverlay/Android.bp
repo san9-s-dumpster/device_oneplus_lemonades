@@ -1,5 +1,5 @@
 runtime_resource_overlay {
-    name: "OnePlus8TWifiOverlay",
+    name: "OnePlus9RWifiOverlay",
     sdk_version: "current",
     product_specific: true
 }
